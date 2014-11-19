@@ -4,19 +4,16 @@
  * and open the template in the editor.
  */
 
-package samdom;
+package server;
 
 /**
  *
  * @author Enrico
  */
-public class SamDOM {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class ServerMatrix {
+    public final int port;
+    public ServerMatrix(int port){
+        this.port=port;
     }
     
     
